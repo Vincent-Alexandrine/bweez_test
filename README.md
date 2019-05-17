@@ -13,3 +13,5 @@ yarn install-all
 ```bash
 yarn start-all
 ```
+
+.env files not ignored for dev purpose
