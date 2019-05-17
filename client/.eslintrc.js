@@ -10,6 +10,9 @@ module.exports = {
     'react',
     'jest'
   ],
+  settings: {
+    version: 'detect'
+  },
   extends: [
     'plugin:jest/recommended',
     'eslint:recommended',

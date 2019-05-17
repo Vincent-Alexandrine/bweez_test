@@ -9,7 +9,7 @@
     "start": "npm-run-all --parallel start-server start-client",
     "install-client": "cd client && yarn",
     "install-server": "cd server && yarn",
-    "install-all": "npm-run-all --parallel install-client install-server"
+    "install-all": " yarn && npm-run-all --parallel install-client install-server"
   },
   "author": "Vincent Alexandrine",
   "license": "ISC",

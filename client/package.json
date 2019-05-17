@@ -14,7 +14,7 @@
     "build": "webpack --mode production --config ./webpack/index.js",
     "lint": "eslint \"src/\" --ext \".js\" --ext \".jsx\" --ignore-pattern \".test.jsx.snap\"",
     "start": "webpack-dev-server --open --mode development --config ./webpack/index.js",
-    "test": "jest"
+    "test": "jest -u"
   },
   "husky": {
     "hooks": {
