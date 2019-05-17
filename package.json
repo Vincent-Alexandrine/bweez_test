@@ -1,0 +1,19 @@
+{
+  "name": "bweez_test",
+  "version": "1.0.0",
+  "description": "bweez test with server and client",
+  "repository": "git@github.com:Vincent-Alexandrine/bweez_test.git",
+  "scripts": {
+    "start-client": "cd client && yarn run start",
+    "start-server": "cd server && yarn run start",
+    "start": "npm-run-all --parallel start-server start-client",
+    "install-client": "cd client && yarn",
+    "install-server": "cd server && yarn",
+    "install-all": "npm-run-all --parallel install-client install-server"
+  },
+  "author": "Vincent Alexandrine",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

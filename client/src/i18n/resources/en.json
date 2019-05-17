@@ -1,0 +1,13 @@
+{
+  "translation": {
+    "error": {
+      "204": "No content found for this research.",
+      "500": "API doesn't answer."
+    },
+    "language": {
+      "en": "english",
+      "fr": "french"
+    },
+    "title": "Bweez"
+  }
+}

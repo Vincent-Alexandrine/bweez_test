@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage component should match snapshot 1`] = `
+<div
+  className=""
+>
+  error.undefined
+</div>
+`;
+
+exports[`ErrorMessage styled component should match snapshot 1`] = `
+<div
+  className=""
+/>
+`;

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 [type="search"] {
+  border-width: 0;
+  padding: .5rem .5rem .5rem 1rem;
+  background: #e6e6e6;
+  border-radius: 2.5rem;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  border-style: solid;
+}
+
+.c0 [type="search"]:focus {
+  outline: none;
+  background: transparent;
+  box-shadow: inset 3px -2px 4px #cccccc, inset 0px 1px 3px #cccccc, inset 3px 1px 4px #cccccc;
+}
+
+@media (max-width:576px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-around;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;
+  }
+}
+
+<div
+  className="c0"
+>
+  <h1>
+    title
+  </h1>
+  <input
+    type="search"
+  />
+</div>
+`;
+
+exports[`Header styled component should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 [type="search"] {
+  border-width: 0;
+  padding: .5rem .5rem .5rem 1rem;
+  background: #e6e6e6;
+  border-radius: 2.5rem;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  border-style: solid;
+}
+
+.c0 [type="search"]:focus {
+  outline: none;
+  background: transparent;
+  box-shadow: inset 3px -2px 4px #cccccc, inset 0px 1px 3px #cccccc, inset 3px 1px 4px #cccccc;
+}
+
+@media (max-width:576px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-around;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;

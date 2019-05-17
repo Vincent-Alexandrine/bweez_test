@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currencies component should match snapshot 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c0::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.c0 > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    grid-template-columns: repeat(auto-fill,minmax(30%,1fr));
+  }
+}
+
+@media (max-width:576px) {
+  .c0 {
+    grid-template-columns: repeat(auto-fill,minmax(45%,1fr));
+  }
+}
+
+<ul
+  className="c0"
+/>
+`;
+
+exports[`Currencies styled component should match snapshot 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c0::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.c0 > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.c1 {
+  padding: .5rem;
+  border-radius: 4px;
+  box-shadow: 0 4.666666666666667px 6px -1px rgba(0,0,0,0.1),0 2px 2px 0px rgba(0,0,0,0.07),0 1px 4.5034985777834295px 0px rgba(0,0,0,0.06);
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1:hover {
+  box-shadow: 0 3.333333333333333px 12px -2px rgba(0,0,0,0.1),0 4px 5px 0px rgba(0,0,0,0.07),0 2px 7.789324958007403px 1px rgba(0,0,0,0.06);
+}
+
+.c1 [name="name"],
+.c1 [name="price"] {
+  -webkit-flex: 0 1 60%;
+  -ms-flex: 0 1 60%;
+  flex: 0 1 60%;
+}
+
+.c1 [name="symbol"],
+.c1 [name="change"] {
+  text-align: right;
+  -webkit-flex: 0 1 33%;
+  -ms-flex: 0 1 33%;
+  flex: 0 1 33%;
+}
+
+.c1 [name="price"],
+.c1 [name="change"] {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 [name="cap"] {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    grid-template-columns: repeat(auto-fill,minmax(30%,1fr));
+  }
+}
+
+@media (max-width:576px) {
+  .c0 {
+    grid-template-columns: repeat(auto-fill,minmax(45%,1fr));
+  }
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+  />
+</ul>
+`;

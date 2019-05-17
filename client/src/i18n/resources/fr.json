@@ -1,0 +1,13 @@
+{
+  "translation": {
+    "error": {
+      "204": "Aucun contenu n'a été trouvé pour cette recherche.",
+      "500": "L'API ne répond pas."
+    },
+    "language": {
+      "en": "anglais",
+      "fr": "français"
+    },
+    "title": "Bweez"
+  }
+}

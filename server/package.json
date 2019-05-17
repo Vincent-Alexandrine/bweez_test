@@ -1,0 +1,60 @@
+{
+    "name": "bweez_test_server",
+    "version": "1.0.0",
+    "description": "Server part for Bweez's test",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "start": "node -r dotenv/config index.js"
+    },
+    "author": "Vincent Alexandrine",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.0.0",
+        "express": "^4.16.4",
+        "request-promise": "^4.2.4"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.17.2"
+    },
+    "eslintConfig": {
+        "extends": "eslint:recommended",
+        "env": {
+            "es6": true,
+            "node": true
+        },
+        "rules": {
+            "brace-style": [
+                "error",
+                "stroustrup"
+            ],
+            "comma-dangle": [
+                "error",
+                "never"
+            ],
+            "no-unused-vars": [
+                "warn"
+            ],
+            "no-var": [
+                "off"
+            ],
+            "one-var": [
+                "off"
+            ],
+            "curly": ["error", "multi-or-nest"],
+            "dot-location": ["error", "property"],
+            "eqeqeq": ["error", "always"],
+            "lines-between-class-members": ["error", "always"],
+            "max-classes-per-file": ["error", 1],
+            "no-multi-spaces": [2],
+            "no-trailing-spaces": ["error", { "ignoreComments": true }],
+            "key-spacing": [2],
+            "space-infix-ops": [2],
+            "space-in-parens": ["error", "never"],
+            "keyword-spacing": ["error", { "before": true, "after": true }]
+        }
+    }
+}
